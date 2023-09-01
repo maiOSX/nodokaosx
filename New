@@ -6549,6 +6549,10 @@ animation:fadeIn 7s;
     
 
 @media screen and (min-width:1245px) { 
+    
+    .permalink-page .hellob {background:url('{image:Wallpaper}');
+            background-size: cover;     background-position: 50%;    transform: scale(1.0);
+    } 
     .post p { overflow: initial;}
     .cpopholder {  width: 90px;
     display: block;
@@ -14246,7 +14250,7 @@ id="youtube-audio">
                 <div id="widget6subtext" class="widget6subtext">
              <a href="https://www.apple.com/apple-events/">Apple Events</a>
               <a href="https://www.tumblr.com/mega-editor/published/chiosx/">MPV</a>
-                  <a href="https://ufointhesky.tumblr.com/post/669579866848526336/that-concludes-waves-rally-3-and-to-give-you-a">Rally 4.0 </a>
+                  <a href="https://drive.google.com/drive/folders/0BwKN3_36F61kSUNncndxQWZmdFk?resourcekey=0-1VRJGcOtByElNEdDONto8w&usp=sharing">GDrive </a>
                   <a href="https://maiosx.com/post/705208902559662080/announcements">★</a>
                 </div> 
          </div> 
