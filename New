@@ -6,7 +6,7 @@
    window.location.replace("http://twitter.com/archillect"); 
    </script> *//
              
-                               Mai OS X                    
+                               Nodoka OS X                    
                                                      
                         //for youtube effects toggle blur on main or rewrite the code so that posts are above the effect//  
         -->            
@@ -50,6 +50,26 @@
         <meta name="text:Logo2MarginTop" content=""/>
         <meta name="text:MainText" content=""/>
         <meta name="text:YourMainURL" content=""/>
+              <meta name="text:DOCKURL1" content=""/>
+               <meta name="text:DOCKURL2" content=""/>
+                <meta name="text:DOCKURL3" content=""/>
+                 <meta name="text:DOCKURL4" content=""/>
+                  <meta name="text:DOCKURL5" content=""/>
+                   <meta name="text:DOCKURL6" content=""/>
+                    <meta name="text:DOCKURL7" content=""/>
+                     <meta name="text:DOCKURL8" content=""/>
+                      <meta name="text:DOCKURL9" content=""/>
+                       <meta name="text:DOCKURL10" content=""/>
+                        <meta name="text:DOCKURL11" content=""/>
+                         <meta name="text:DOCKURL12" content=""/>
+                          <meta name="text:DOCKURL13" content=""/>
+                           <meta name="text:DOCKURL14" content=""/>
+                            <meta name="text:DOCKURL15" content=""/>
+                             <meta name="text:DOCKURL16" content=""/>
+                              <meta name="text:DOCKURL17" content=""/>
+                               <meta name="text:DOCKURL18" content=""/>
+                                <meta name="text:DOCKURL19" content=""/>
+                                 <meta name="text:DOCKURL20" content=""/>
         <meta name="text:Your1SearchTag" content=""/>\
        <meta name="description" content="maiOSX is the world's most advanced social operating system powered by tumblr.">
         <meta name="text:About" content=""/>
@@ -65,6 +85,26 @@
         <meta name="image:Wallpaperoverlay" content="">
         <meta name="image:Logo" content="">
         <meta name="image:Logo2" content="">
+           <meta name="image:DOCKURL1Image" content="">
+           <meta name="image:DOCKURL2Image" content="">
+                 <meta name="image:DOCKURL3Image" content="">
+                    <meta name="image:DOCKURL4Image" content="">
+                       <meta name="image:DOCKURL5Image" content="">
+                          <meta name="image:DOCKURL6Image" content="">
+                             <meta name="image:DOCKURL7Image" content="">
+                               <meta name="image:DOCKURL8Image" content="">
+              <meta name="image:DOCKURL9Image" content="">
+                 <meta name="image:DOCKURL10Image" content="">
+                    <meta name="image:DOCKURL11Image" content="">
+                       <meta name="image:DOCKURL12Image" content="">
+                          <meta name="image:DOCKURL13Image" content="">
+                             <meta name="image:DOCKURL14Image" content="">
+                              <meta name="image:DOCKURL15Image" content="">
+                 <meta name="image:DOCKURL16Image" content="">
+                    <meta name="image:DOCKURL17Image" content="">
+                       <meta name="image:DOCKURL18Image" content="">
+                          <meta name="image:DOCKURL19Image" content="">
+                             <meta name="image:DOCKURL20Image" content="">
         <meta name="image:StatusBackground" content="">
         <meta name="if:ShowYouTubeBackground" content=""/>
         <meta name="if:ShowYouTubeEffect" content=""/>
@@ -152,6 +192,33 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
         
         <style type="text/css"> 
+        
+        .newdockbg
+{width:90%;background:deepskyblue;bottom:0px;position:fixed;height:110px;left:5%;}
+.iconsholder
+{    width: 1000px;
+    height: 87px;
+    background: rgba(0,0,0,0.4);
+  margin-left: -30px;
+    position: relative;
+    bottom: 140px !important;
+    overflow-x: scroll;
+    display: -webkit-inline-box;
+    border-radius: 15px;
+    border: 1px solid white;}
+.icon
+{height:64px;width:64px;background:black; margin-left:10px;margin-top:10px;margin-right:10px;border-radius:150px;border:1px solid white;margin-bottom:10px;}
+::-webkit-scrollbar {
+    display: none;}
+
+.icon a img {display:block;;border-radius:150px;display: block;
+    height: 64px;
+    width: 64px;
+
+    margin-left: -1px !important;
+    margin-top: -1px !important;}
+
+
     
 .post p { overflow: scroll !important;} 
 
@@ -287,7 +354,7 @@
 .poll-post a.poll-row:hover {background-color: rgba(255,255,255,0.6) !important;margin-left: 10px;
     margin-right: 10px;
     width: 90%;}
-p.npf_quote {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:rgba(0,0,0,0.6) !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
+p.npf_quote {font-style:italic; font-family:'Quicksand' !important; font-size:18px !important;background:rgba(0,0,0,0.6) !important; border-radius:15px !important;animation:pulse 2s infinite !important;     margin-top: 0px !important;text-align:left !important;padding-top:5px;padding-bottom:5px;}
 p.z1 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:rgba(0,0,0,0.6) !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
 p.z2 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:yellow !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
 p.z3 {font-style:italic; font-family:'Quicksand' !important; font-size:24px !important;background:deeppink !important; border-radius:15px !important;animation:pulse 2s infinite !important;}
@@ -3854,7 +3921,7 @@ border-bottom-right-radius: 15px;
  
     width: 100%;
     opacity:0%;
-    height: 55px;
+    height: 0px;
     border-radius: 0 0 15px 0;
     -webkit-transition: top 0.1s ease-in;
     cursor: pointer;
@@ -8895,7 +8962,7 @@ border:1px solid rgba(255,255,255,0.9); }
 
    /*move if portraitdesktopbg line here to add gradient again */
         {/block:IfPortraitDesktopBG}
-      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,255,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
+      .helloc {display:block;background: linear-gradient(180deg, rgba(0,0,0,0.3309698879551821) 0%, rgba(0,0,0,0.35057773109243695) 100%);width:100%; position:fixed;opacity:50%; height: 101.6%; 
     z-index: 99;   margin-top:-16px;}
     
   
@@ -9192,8 +9259,8 @@ background: rgba(0,0,0,0.0);
      transition: ease-in .001ms;
 }
  
-   .toggle8 {width: 100%;
-   
+   .toggle8 {width: 90%;
+   left:5%;
 
     letter-spacing:8px;    box-shadow: 0px 2px 40px 1px rgb(66 245 23 / 0%);
     font-family:Helvetica;       -webkit-backdrop-filter: blur(0px);
@@ -9204,13 +9271,12 @@ background: rgba(0,0,0,0.0);
    
  z-index:9998; 
 
-height:125px;
-  width:100%;
+height:110px;
 
-bottom:0;
-left:0;
+
+    bottom: 10px;
 position:fixed !important;
-
+border-radius:15px; 
 
     font-style:italic;
     line-height: 300%;
@@ -9220,8 +9286,8 @@ position:fixed !important;
     transition: ease-in .7s;
 }
  
- 	.toggle8:hover { width: 100%;
-   
+ 	.toggle8:hover { width: 90%;
+   left:5%;
 
     letter-spacing:8px;    box-shadow: 0px 2px 20px 1px rgb(66 245 230/ 50%);
     font-family:Helvetica;       -webkit-backdrop-filter: blur(7px);
@@ -9231,11 +9297,10 @@ position:fixed !important;
     font-size:20px; 
 
     z-index:9998; 
-height:125px;
-  width:100%;
+height:110px;
+border-radius:15px;
+    bottom: 10px;
 
-bottom:0;
-left:0;
 position:fixed !important;
 
 
@@ -13144,7 +13209,7 @@ and it is currently  <div class="datetime">
 
          <div class="container"> 
         
-        <div id"ipadlogo" class="ipadlogo">SAKURAJIMA</div>
+        <div id"ipadlogo" class="ipadlogo">T O Y O H A M A</div>
         
         <div id"togglecon" class="togglecon">
          <div id="capcut1" class="capcut1">
@@ -15047,106 +15112,67 @@ Your browser does not support inline frames or is currently configured not to di
 
 <div class="hdockcontainer" style="
        z-index:9999; 
-    left: 0%;
+    left: 0%;position: fixed;
 ">
- <div class="hdockcontainerin"></div>
-     <div class="hdockcontainerin2">
-          <div class="dockh">
-        		<a href="https://www.tumblr.com/new/"  onclick="window.open('https://www.tumblr.com/new/', 
-                         'newwindow2', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="" src="https://i.pinimg.com/originals/da/20/4d/da204de815863e4aa877d14c91982bd4.gif"
-         	width=55" height="55">️<a></div> 
-         <div class="dockh2">
-       		<a href="https://rockstargames.com"  onclick="window.open('https://rockstargames.com', 
-                         'newwindow3', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Imgur" src="https://media.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif"
-         	width=55" height="55">️<a></div>
-        <div class="dockh3">
-        	<a href="https://open.spotify.com/"  onclick="window.open('https://open.spotify.com/', 
-                         'newwindow4', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Pikachu" src="https://vignette.wikia.nocookie.net/pokemon-rumble-fan/images/4/4f/GIF1.gif"
-         	width=55" height="55">️️️<a></div>
-        <div class="dockh4">
-        		<a href="https://youtu.be/O2RBdZteqOc"  onclick="window.open('https://youtu.be/O2RBdZteqOc', 
-                         'newwindow5', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Spotify" src="https://discordemoji.com/assets/emoji/1754_Chika_Dance.gif"
-         	width=55" height="55">️<a></div>
-        <div class="dockh5">
-        		<a href="https://www.vscode.dev"  onclick="window.open('https://www.vscode.dev', 
-                         'newwindow6', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Twitter" src="https://i.imgur.com/qJCBhEn.jpg"
-         	width="55" height="55">️<a></div>
-        <div class="dockh6">
-        	<a href="https://twitch.com"  onclick="window.open('https://twitch.com', 
-                         'newwindow7', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="Netflix" src="https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif"
-         	width=55" height="55">️<a></div> 
-        <div class="dockh7">
-        		<a href="https://www.pinterest.com/"  onclick="window.open('https://www.pinterest.com/', 
-                         'newwindow8', 
-                         'width=917,height=832'); 
-              return false;">
-         	<img alt="r/funny" src="https://pa1.narvii.com/7122/73a0e11b4d7511127cc5a0b428069e3105a614c4r1-498-243_128.gif"
-         	width=55" height="55">️/<a></div>
-         	<div class="dockh8">
-        	<a href="https://www.analogue.co/pocket/">
-         	<img alt="Gameboy" src="https://i.pinimg.com/originals/68/6f/61/686f61a923775e73e7d3d08b70be4d6e.gif"
-         	width=55" height="55">️<a
-         	></div>
-         	<div class="dockh9">
-        	<a href="https://www.rockstargames.com">
-         	<img alt="Rockstar Games" src="https://www.rockstargames.com/midnightclubLA/downloads/content/avatar/MCLA_avatar_256x256_black_rlogo.jpg"
-         	width=55" height="55">️<a></div>
-         	
-         
-         	<div id=tag1 class=tag1>	<a href="/search/music"  onclick="window.open('/search/music', 
-                         'newwindow9', 
-                         'width=917,height=832'); 
-              return false;">Music</div>
-         	
-         	<div id=tag2 class=tag2>	<a href="/search/youtube"  onclick="window.open('/search/youtube', 
-                         'newwindow10', 
-                         'width=917,height=832'); 
-              return false;">Videos</div>
-         	
-         	<div id=tag3 class=tag3>	<a href="/search/photo"  onclick="window.open('/search/photo', 
-                         'newwindow11', 
-                         'width=917,height=832'); 
-              return false;">Photos</div> 
-         	
-         	<div id=tag4 class=tag4>	<a href="https://www.joyland.ai/"  onclick="window.open('https://www.joyland.ai/', 
-                         'newwindow12', 
-                         'width=917,height=832'); 
-              return false;">Joyland AI</div>
-         	<div id=tag5 class=tag5><a href="https://www.youtube.com/@DancingshanaVR"  onclick="window.open('https://www.youtube.com/@DancingshanaVR', 
-                         'newwindow13', 
-                         'width=917,height=832'); 
-              return false;">Shana</div>
-         	<div id=tag6 class=tag6>	<a href="https://www.crunchyroll.com/"  onclick="window.open('https://www.crunchyroll.com/', 
-                         'newwindow14', 
-                         'width=917,height=832'); 
-              return false;">Crunchyroll</div>
-         		<div id=tag7 class=tag7>	<a href="https://www.discord.com/app"  onclick="window.open('https://www.discord.com/app', 
-                         'newwindow15', 
-                         'width=917,height=832'); 
-              return false;">Instagram️</div>
-         	<div id=tag8 class=tag8><a href="https://store.steampowered.com/"  onclick="window.open('https://store.steampowered.com/', 
-                         'newwindow16', 
-                         'width=917,height=832'); 
-              return false;">Steam️</div>
-         	
+
+          <div id="iconsholder" class="iconsholder">
+            <div id="icon1" class="icon">
+                <a href="{text:DOCKURL1}"  onclick="window.open('{text:DOCKURL1}', 'newwindow2', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL1Image}">️</a> 
+            </div>
+            <div id="icon2" class="icon">
+                     <a href="{text:DOCKURL2}"  onclick="window.open('{text:URL2}', 'newwindow3', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL2Image}">️</a> </div>
+            <div id="icon3" class="icon">
+                     <a href="{text:DOCKDOCKURL3}"  onclick="window.open('{text:DOCKURL3}', 'newwindow2', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL3Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL4}"  onclick="window.open('{text:DOCKURL4}', 'newwindow4', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL4Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL5}"  onclick="window.open('{text:DOCKURL5}', 'newwindow5', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL5Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL6}"  onclick="window.open('{text:DOCKURL6}', 'newwindow6', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL6Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL7}"  onclick="window.open('{text:DOCKURL7}', 'newwindow7', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL7Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL8}"  onclick="window.open('{text:DOCKURL8}', 'newwindow8', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL8Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL9}"  onclick="window.open('{text:DOCKURL9}', 'newwindow9', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL9Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL10}"  onclick="window.open('{text:DOCKURL10}', 'newwindow10', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL10Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL11}"  onclick="window.open('{text:DOCKURL11}', 'newwindow11', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL11Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL12}"  onclick="window.open('{text:DOCKURL12}', 'newwindow12', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL12Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL13}"  onclick="window.open('{text:DOCKURL13}', 'newwindow13', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL13Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL14}"  onclick="window.open('{text:DOCKURL14}', 'newwindow14', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL14Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL15}"  onclick="window.open('{text:DOCKURL15}', 'newwindow15', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL15Image}">️</a> </div>  
+                     
+                         <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL16}"  onclick="window.open('{text:DOCKURL16}', 'newwindow16', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL16Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL17}"  onclick="window.open('{text:DOCKURL17}', 'newwindow17', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL17Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL18}"  onclick="window.open('{text:DOCKURL18}', 'newwindow18', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL18Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL19}"  onclick="window.open('{text:DOCKURL19}', 'newwindow19', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL19Image}">️</a> </div>      <div id="icon3" class="icon">
+                     <a href="{text:DOCKURL20}"  onclick="window.open('{text:DOCKURL20}', 'newwindow20', 'width=917,height=832'); return false;"><img alt="" src="{image:DOCKURL20Image}">️</a> </div>  
+                     
+                
+                
+                
+                
+                
+                
+           
+               
+  </div>  
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+     
          	
          	
          	
